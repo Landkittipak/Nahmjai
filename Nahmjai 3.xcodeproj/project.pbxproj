@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B3880920FF0FA900528EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3880820FF0FA900528EC8 /* AppDelegate.swift */; };
+		A1B3880B20FF0FA900528EC8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3880A20FF0FA900528EC8 /* FirstViewController.swift */; };
+		A1B3880D20FF0FA900528EC8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3880C20FF0FA900528EC8 /* SecondViewController.swift */; };
+		A1B3881020FF0FA900528EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B3880E20FF0FA900528EC8 /* Main.storyboard */; };
+		A1B3881220FF0FAA00528EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B3881120FF0FAA00528EC8 /* Assets.xcassets */; };
+		A1B3881520FF0FAA00528EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B3881320FF0FAA00528EC8 /* LaunchScreen.storyboard */; };
+		A1B3882020FF0FAA00528EC8 /* Nahmjai_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3881F20FF0FAA00528EC8 /* Nahmjai_3Tests.swift */; };
+		A1B3882B20FF0FAA00528EC8 /* Nahmjai_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3882A20FF0FAA00528EC8 /* Nahmjai_3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B3881C20FF0FAA00528EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B387FD20FF0FA900528EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B3880420FF0FA900528EC8;
+			remoteInfo = "Nahmjai 3";
+		};
+		A1B3882720FF0FAA00528EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B387FD20FF0FA900528EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B3880420FF0FA900528EC8;
+			remoteInfo = "Nahmjai 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1B3880520FF0FA900528EC8 /* Nahmjai 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nahmjai 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B3880820FF0FA900528EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1B3880A20FF0FA900528EC8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A1B3880C20FF0FA900528EC8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A1B3880F20FF0FA900528EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1B3881120FF0FAA00528EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B3881420FF0FAA00528EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1B3881620FF0FAA00528EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B3881B20FF0FAA00528EC8 /* Nahmjai 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nahmjai 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B3881F20FF0FAA00528EC8 /* Nahmjai_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nahmjai_3Tests.swift; sourceTree = "<group>"; };
+		A1B3882120FF0FAA00528EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B3882620FF0FAA00528EC8 /* Nahmjai 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nahmjai 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B3882A20FF0FAA00528EC8 /* Nahmjai_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nahmjai_3UITests.swift; sourceTree = "<group>"; };
+		A1B3882C20FF0FAA00528EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B3880220FF0FA900528EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3881820FF0FAA00528EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3882320FF0FAA00528EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B387FC20FF0FA900528EC8 = {
+			isa = PBXGroup;
+			children = (
+				A1B3880720FF0FA900528EC8 /* Nahmjai 3 */,
+				A1B3881E20FF0FAA00528EC8 /* Nahmjai 3Tests */,
+				A1B3882920FF0FAA00528EC8 /* Nahmjai 3UITests */,
+				A1B3880620FF0FA900528EC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B3880620FF0FA900528EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3880520FF0FA900528EC8 /* Nahmjai 3.app */,
+				A1B3881B20FF0FAA00528EC8 /* Nahmjai 3Tests.xctest */,
+				A1B3882620FF0FAA00528EC8 /* Nahmjai 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B3880720FF0FA900528EC8 /* Nahmjai 3 */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3880820FF0FA900528EC8 /* AppDelegate.swift */,
+				A1B3880A20FF0FA900528EC8 /* FirstViewController.swift */,
+				A1B3880C20FF0FA900528EC8 /* SecondViewController.swift */,
+				A1B3880E20FF0FA900528EC8 /* Main.storyboard */,
+				A1B3881120FF0FAA00528EC8 /* Assets.xcassets */,
+				A1B3881320FF0FAA00528EC8 /* LaunchScreen.storyboard */,
+				A1B3881620FF0FAA00528EC8 /* Info.plist */,
+			);
+			path = "Nahmjai 3";
+			sourceTree = "<group>";
+		};
+		A1B3881E20FF0FAA00528EC8 /* Nahmjai 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3881F20FF0FAA00528EC8 /* Nahmjai_3Tests.swift */,
+				A1B3882120FF0FAA00528EC8 /* Info.plist */,
+			);
+			path = "Nahmjai 3Tests";
+			sourceTree = "<group>";
+		};
+		A1B3882920FF0FAA00528EC8 /* Nahmjai 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3882A20FF0FAA00528EC8 /* Nahmjai_3UITests.swift */,
+				A1B3882C20FF0FAA00528EC8 /* Info.plist */,
+			);
+			path = "Nahmjai 3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B3880420FF0FA900528EC8 /* Nahmjai 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B3882F20FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3" */;
+			buildPhases = (
+				A1B3880120FF0FA900528EC8 /* Sources */,
+				A1B3880220FF0FA900528EC8 /* Frameworks */,
+				A1B3880320FF0FA900528EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nahmjai 3";
+			productName = "Nahmjai 3";
+			productReference = A1B3880520FF0FA900528EC8 /* Nahmjai 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B3881A20FF0FAA00528EC8 /* Nahmjai 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B3883220FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3Tests" */;
+			buildPhases = (
+				A1B3881720FF0FAA00528EC8 /* Sources */,
+				A1B3881820FF0FAA00528EC8 /* Frameworks */,
+				A1B3881920FF0FAA00528EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B3881D20FF0FAA00528EC8 /* PBXTargetDependency */,
+			);
+			name = "Nahmjai 3Tests";
+			productName = "Nahmjai 3Tests";
+			productReference = A1B3881B20FF0FAA00528EC8 /* Nahmjai 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1B3882520FF0FAA00528EC8 /* Nahmjai 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B3883520FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3UITests" */;
+			buildPhases = (
+				A1B3882220FF0FAA00528EC8 /* Sources */,
+				A1B3882320FF0FAA00528EC8 /* Frameworks */,
+				A1B3882420FF0FAA00528EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B3882820FF0FAA00528EC8 /* PBXTargetDependency */,
+			);
+			name = "Nahmjai 3UITests";
+			productName = "Nahmjai 3UITests";
+			productReference = A1B3882620FF0FAA00528EC8 /* Nahmjai 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B387FD20FF0FA900528EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Groton MIT Launch";
+				TargetAttributes = {
+					A1B3880420FF0FA900528EC8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A1B3881A20FF0FAA00528EC8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A1B3880420FF0FA900528EC8;
+					};
+					A1B3882520FF0FAA00528EC8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A1B3880420FF0FA900528EC8;
+					};
+				};
+			};
+			buildConfigurationList = A1B3880020FF0FA900528EC8 /* Build configuration list for PBXProject "Nahmjai 3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B387FC20FF0FA900528EC8;
+			productRefGroup = A1B3880620FF0FA900528EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B3880420FF0FA900528EC8 /* Nahmjai 3 */,
+				A1B3881A20FF0FAA00528EC8 /* Nahmjai 3Tests */,
+				A1B3882520FF0FAA00528EC8 /* Nahmjai 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B3880320FF0FA900528EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B3881520FF0FAA00528EC8 /* LaunchScreen.storyboard in Resources */,
+				A1B3881220FF0FAA00528EC8 /* Assets.xcassets in Resources */,
+				A1B3881020FF0FA900528EC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3881920FF0FAA00528EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3882420FF0FAA00528EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B3880120FF0FA900528EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B3880D20FF0FA900528EC8 /* SecondViewController.swift in Sources */,
+				A1B3880920FF0FA900528EC8 /* AppDelegate.swift in Sources */,
+				A1B3880B20FF0FA900528EC8 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3881720FF0FAA00528EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B3882020FF0FAA00528EC8 /* Nahmjai_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3882220FF0FAA00528EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B3882B20FF0FAA00528EC8 /* Nahmjai_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1B3881D20FF0FAA00528EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B3880420FF0FA900528EC8 /* Nahmjai 3 */;
+			targetProxy = A1B3881C20FF0FAA00528EC8 /* PBXContainerItemProxy */;
+		};
+		A1B3882820FF0FAA00528EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B3880420FF0FA900528EC8 /* Nahmjai 3 */;
+			targetProxy = A1B3882720FF0FAA00528EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1B3880E20FF0FA900528EC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B3880F20FF0FA900528EC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1B3881320FF0FAA00528EC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B3881420FF0FAA00528EC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1B3882D20FF0FAA00528EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B3882E20FF0FAA00528EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B3883020FF0FAA00528EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nahmjai 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mitlaunchgroton.com.Nahmjai-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B3883120FF0FAA00528EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nahmjai 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mitlaunchgroton.com.Nahmjai-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1B3883320FF0FAA00528EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nahmjai 3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mitlaunchgroton.com.Nahmjai-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nahmjai 3.app/Nahmjai 3";
+			};
+			name = Debug;
+		};
+		A1B3883420FF0FAA00528EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nahmjai 3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mitlaunchgroton.com.Nahmjai-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nahmjai 3.app/Nahmjai 3";
+			};
+			name = Release;
+		};
+		A1B3883620FF0FAA00528EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nahmjai 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mitlaunchgroton.com.Nahmjai-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nahmjai 3";
+			};
+			name = Debug;
+		};
+		A1B3883720FF0FAA00528EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nahmjai 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mitlaunchgroton.com.Nahmjai-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nahmjai 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B3880020FF0FA900528EC8 /* Build configuration list for PBXProject "Nahmjai 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B3882D20FF0FAA00528EC8 /* Debug */,
+				A1B3882E20FF0FAA00528EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B3882F20FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B3883020FF0FAA00528EC8 /* Debug */,
+				A1B3883120FF0FAA00528EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B3883220FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B3883320FF0FAA00528EC8 /* Debug */,
+				A1B3883420FF0FAA00528EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B3883520FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B3883620FF0FAA00528EC8 /* Debug */,
+				A1B3883720FF0FAA00528EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B387FD20FF0FA900528EC8 /* Project object */;
+}
