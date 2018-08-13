@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67AECE1D7BF1123850615002 /* Pods_Nahmjai__UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4B3BE5B44E2409853B4E5C /* Pods_Nahmjai__UITests.framework */; };
+		77CD181A787A4CDB64DE7416 /* Pods_Nahmjai__.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E342BC742C7C6E7292534D /* Pods_Nahmjai__.framework */; };
+		7BACFDE88200D34B7410A55C /* Pods_Nahmjai__Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0518B40CD6C847B1B2A4584D /* Pods_Nahmjai__Tests.framework */; };
+		A19FFE422115FA5D001A5C32 /* wlk3.png in Resources */ = {isa = PBXBuildFile; fileRef = A19FFE3E2115FA5C001A5C32 /* wlk3.png */; };
+		A19FFE432115FA5D001A5C32 /* wlk2.png in Resources */ = {isa = PBXBuildFile; fileRef = A19FFE3F2115FA5C001A5C32 /* wlk2.png */; };
+		A19FFE442115FA5D001A5C32 /* wlk4.png in Resources */ = {isa = PBXBuildFile; fileRef = A19FFE402115FA5C001A5C32 /* wlk4.png */; };
+		A19FFE452115FA5D001A5C32 /* WLK1.png in Resources */ = {isa = PBXBuildFile; fileRef = A19FFE412115FA5D001A5C32 /* WLK1.png */; };
 		A1B3880920FF0FA900528EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3880820FF0FA900528EC8 /* AppDelegate.swift */; };
 		A1B3880B20FF0FA900528EC8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3880A20FF0FA900528EC8 /* FirstViewController.swift */; };
 		A1B3880D20FF0FA900528EC8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3880C20FF0FA900528EC8 /* SecondViewController.swift */; };
@@ -37,7 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A1B3880520FF0FA900528EC8 /* Nahmjai 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nahmjai 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0518B40CD6C847B1B2A4584D /* Pods_Nahmjai__Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nahmjai__Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4B3BE5B44E2409853B4E5C /* Pods_Nahmjai__UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nahmjai__UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B175DB648A21559ED5072FE /* Pods-Nahmjai  UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nahmjai  UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nahmjai  UITests/Pods-Nahmjai  UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3964258ED9693A3004BA9F24 /* Pods-Nahmjai  Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nahmjai  Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nahmjai  Tests/Pods-Nahmjai  Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		63CF04E9309F199EFA4DEB76 /* Pods-Nahmjai  UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nahmjai  UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nahmjai  UITests/Pods-Nahmjai  UITests.release.xcconfig"; sourceTree = "<group>"; };
+		769C42BA6B1D1ABDBB1E12EF /* Pods-Nahmjai  .release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nahmjai  .release.xcconfig"; path = "Pods/Target Support Files/Pods-Nahmjai  /Pods-Nahmjai  .release.xcconfig"; sourceTree = "<group>"; };
+		8788A98CAC7F9B2FEF1DFB22 /* Pods-Nahmjai  .debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nahmjai  .debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nahmjai  /Pods-Nahmjai  .debug.xcconfig"; sourceTree = "<group>"; };
+		A19FFE3E2115FA5C001A5C32 /* wlk3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wlk3.png; sourceTree = "<group>"; };
+		A19FFE3F2115FA5C001A5C32 /* wlk2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wlk2.png; sourceTree = "<group>"; };
+		A19FFE402115FA5C001A5C32 /* wlk4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wlk4.png; sourceTree = "<group>"; };
+		A19FFE412115FA5D001A5C32 /* WLK1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WLK1.png; sourceTree = "<group>"; };
+		A1B3880520FF0FA900528EC8 /* Nahmjai  .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nahmjai  .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B3880820FF0FA900528EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B3880A20FF0FA900528EC8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		A1B3880C20FF0FA900528EC8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -45,14 +63,16 @@
 		A1B3881120FF0FAA00528EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B3881420FF0FAA00528EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1B3881620FF0FAA00528EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1B3881B20FF0FAA00528EC8 /* Nahmjai 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nahmjai 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B3881B20FF0FAA00528EC8 /* Nahmjai  Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nahmjai  Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B3881F20FF0FAA00528EC8 /* Nahmjai_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nahmjai_3Tests.swift; sourceTree = "<group>"; };
 		A1B3882120FF0FAA00528EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1B3882620FF0FAA00528EC8 /* Nahmjai 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nahmjai 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B3882620FF0FAA00528EC8 /* Nahmjai  UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nahmjai  UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B3882A20FF0FAA00528EC8 /* Nahmjai_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nahmjai_3UITests.swift; sourceTree = "<group>"; };
 		A1B3882C20FF0FAA00528EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B3883820FF109900528EC8 /* Nahmjai screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nahmjai screen.png"; sourceTree = "<group>"; };
 		A1B3883A20FF139300528EC8 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		AF0EB0DE980482BE9D5853C5 /* Pods-Nahmjai  Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nahmjai  Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nahmjai  Tests/Pods-Nahmjai  Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B6E342BC742C7C6E7292534D /* Pods_Nahmjai__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nahmjai__.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77CD181A787A4CDB64DE7416 /* Pods_Nahmjai__.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BACFDE88200D34B7410A55C /* Pods_Nahmjai__Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67AECE1D7BF1123850615002 /* Pods_Nahmjai__UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A19FFE352115F79B001A5C32 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3883A20FF139300528EC8 /* 01.png */,
+				A19FFE412115FA5D001A5C32 /* WLK1.png */,
+				A19FFE3F2115FA5C001A5C32 /* wlk2.png */,
+				A19FFE3E2115FA5C001A5C32 /* wlk3.png */,
+				A19FFE402115FA5C001A5C32 /* wlk4.png */,
+				A1B3883820FF109900528EC8 /* Nahmjai screen.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		A1B387FC20FF0FA900528EC8 = {
 			isa = PBXGroup;
 			children = (
@@ -87,15 +123,17 @@
 				A1B3881E20FF0FAA00528EC8 /* Nahmjai 3Tests */,
 				A1B3882920FF0FAA00528EC8 /* Nahmjai 3UITests */,
 				A1B3880620FF0FA900528EC8 /* Products */,
+				FEA6D48BC8685693250BA87D /* Pods */,
+				BBD7E6339B30064E32EB0AE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A1B3880620FF0FA900528EC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1B3880520FF0FA900528EC8 /* Nahmjai 3.app */,
-				A1B3881B20FF0FAA00528EC8 /* Nahmjai 3Tests.xctest */,
-				A1B3882620FF0FAA00528EC8 /* Nahmjai 3UITests.xctest */,
+				A1B3880520FF0FA900528EC8 /* Nahmjai  .app */,
+				A1B3881B20FF0FAA00528EC8 /* Nahmjai  Tests.xctest */,
+				A1B3882620FF0FAA00528EC8 /* Nahmjai  UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,12 +146,12 @@
 				A1B3880C20FF0FA900528EC8 /* SecondViewController.swift */,
 				A1B3880E20FF0FA900528EC8 /* Main.storyboard */,
 				A1B3881120FF0FAA00528EC8 /* Assets.xcassets */,
-				A1B3883A20FF139300528EC8 /* 01.png */,
-				A1B3883820FF109900528EC8 /* Nahmjai screen.png */,
+				A19FFE352115F79B001A5C32 /* Images */,
 				A1B3881320FF0FAA00528EC8 /* LaunchScreen.storyboard */,
 				A1B3881620FF0FAA00528EC8 /* Info.plist */,
 			);
-			path = "Nahmjai 3";
+			name = "Nahmjai 3";
+			path = "Nahmjai ";
 			sourceTree = "<group>";
 		};
 		A1B3881E20FF0FAA00528EC8 /* Nahmjai 3Tests */ = {
@@ -134,30 +172,57 @@
 			path = "Nahmjai 3UITests";
 			sourceTree = "<group>";
 		};
+		BBD7E6339B30064E32EB0AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6E342BC742C7C6E7292534D /* Pods_Nahmjai__.framework */,
+				0518B40CD6C847B1B2A4584D /* Pods_Nahmjai__Tests.framework */,
+				0A4B3BE5B44E2409853B4E5C /* Pods_Nahmjai__UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA6D48BC8685693250BA87D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8788A98CAC7F9B2FEF1DFB22 /* Pods-Nahmjai  .debug.xcconfig */,
+				769C42BA6B1D1ABDBB1E12EF /* Pods-Nahmjai  .release.xcconfig */,
+				3964258ED9693A3004BA9F24 /* Pods-Nahmjai  Tests.debug.xcconfig */,
+				AF0EB0DE980482BE9D5853C5 /* Pods-Nahmjai  Tests.release.xcconfig */,
+				1B175DB648A21559ED5072FE /* Pods-Nahmjai  UITests.debug.xcconfig */,
+				63CF04E9309F199EFA4DEB76 /* Pods-Nahmjai  UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1B3880420FF0FA900528EC8 /* Nahmjai 3 */ = {
+		A1B3880420FF0FA900528EC8 /* Nahmjai   */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B3882F20FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3" */;
+			buildConfigurationList = A1B3882F20FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai  " */;
 			buildPhases = (
+				285EA0F12E8744CDEC3D030F /* [CP] Check Pods Manifest.lock */,
 				A1B3880120FF0FA900528EC8 /* Sources */,
 				A1B3880220FF0FA900528EC8 /* Frameworks */,
 				A1B3880320FF0FA900528EC8 /* Resources */,
+				C58861C73D0AB40C2A48B884 /* [CP] Embed Pods Frameworks */,
+				7A9191CEA1C07ED857C3B23F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Nahmjai 3";
+			name = "Nahmjai  ";
 			productName = "Nahmjai 3";
-			productReference = A1B3880520FF0FA900528EC8 /* Nahmjai 3.app */;
+			productReference = A1B3880520FF0FA900528EC8 /* Nahmjai  .app */;
 			productType = "com.apple.product-type.application";
 		};
-		A1B3881A20FF0FAA00528EC8 /* Nahmjai 3Tests */ = {
+		A1B3881A20FF0FAA00528EC8 /* Nahmjai  Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B3883220FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3Tests" */;
+			buildConfigurationList = A1B3883220FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai  Tests" */;
 			buildPhases = (
+				CA1E43BCF71EA796A42D2BC0 /* [CP] Check Pods Manifest.lock */,
 				A1B3881720FF0FAA00528EC8 /* Sources */,
 				A1B3881820FF0FAA00528EC8 /* Frameworks */,
 				A1B3881920FF0FAA00528EC8 /* Resources */,
@@ -167,15 +232,16 @@
 			dependencies = (
 				A1B3881D20FF0FAA00528EC8 /* PBXTargetDependency */,
 			);
-			name = "Nahmjai 3Tests";
+			name = "Nahmjai  Tests";
 			productName = "Nahmjai 3Tests";
-			productReference = A1B3881B20FF0FAA00528EC8 /* Nahmjai 3Tests.xctest */;
+			productReference = A1B3881B20FF0FAA00528EC8 /* Nahmjai  Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A1B3882520FF0FAA00528EC8 /* Nahmjai 3UITests */ = {
+		A1B3882520FF0FAA00528EC8 /* Nahmjai  UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B3883520FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3UITests" */;
+			buildConfigurationList = A1B3883520FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai  UITests" */;
 			buildPhases = (
+				731584C139ACED7ED3F56D70 /* [CP] Check Pods Manifest.lock */,
 				A1B3882220FF0FAA00528EC8 /* Sources */,
 				A1B3882320FF0FAA00528EC8 /* Frameworks */,
 				A1B3882420FF0FAA00528EC8 /* Resources */,
@@ -185,9 +251,9 @@
 			dependencies = (
 				A1B3882820FF0FAA00528EC8 /* PBXTargetDependency */,
 			);
-			name = "Nahmjai 3UITests";
+			name = "Nahmjai  UITests";
 			productName = "Nahmjai 3UITests";
-			productReference = A1B3882620FF0FAA00528EC8 /* Nahmjai 3UITests.xctest */;
+			productReference = A1B3882620FF0FAA00528EC8 /* Nahmjai  UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +279,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A1B3880020FF0FA900528EC8 /* Build configuration list for PBXProject "Nahmjai 3" */;
+			buildConfigurationList = A1B3880020FF0FA900528EC8 /* Build configuration list for PBXProject "Nahmjai  " */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +292,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1B3880420FF0FA900528EC8 /* Nahmjai 3 */,
-				A1B3881A20FF0FAA00528EC8 /* Nahmjai 3Tests */,
-				A1B3882520FF0FAA00528EC8 /* Nahmjai 3UITests */,
+				A1B3880420FF0FA900528EC8 /* Nahmjai   */,
+				A1B3881A20FF0FAA00528EC8 /* Nahmjai  Tests */,
+				A1B3882520FF0FAA00528EC8 /* Nahmjai  UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,9 +304,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19FFE452115FA5D001A5C32 /* WLK1.png in Resources */,
+				A19FFE432115FA5D001A5C32 /* wlk2.png in Resources */,
 				A1B3883B20FF139300528EC8 /* 01.png in Resources */,
 				A1B3881520FF0FAA00528EC8 /* LaunchScreen.storyboard in Resources */,
+				A19FFE422115FA5D001A5C32 /* wlk3.png in Resources */,
 				A1B3883920FF109A00528EC8 /* Nahmjai screen.png in Resources */,
+				A19FFE442115FA5D001A5C32 /* wlk4.png in Resources */,
 				A1B3881220FF0FAA00528EC8 /* Assets.xcassets in Resources */,
 				A1B3881020FF0FA900528EC8 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +331,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		285EA0F12E8744CDEC3D030F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nahmjai  -checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		731584C139ACED7ED3F56D70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nahmjai  UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A9191CEA1C07ED857C3B23F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nahmjai  /Pods-Nahmjai  -resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nahmjai  /Pods-Nahmjai  -resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58861C73D0AB40C2A48B884 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nahmjai  /Pods-Nahmjai  -frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BWWalkthrough/BWWalkthrough.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BWWalkthrough.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nahmjai  /Pods-Nahmjai  -frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA1E43BCF71EA796A42D2BC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nahmjai  Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1B3880120FF0FA900528EC8 /* Sources */ = {
@@ -294,12 +463,12 @@
 /* Begin PBXTargetDependency section */
 		A1B3881D20FF0FAA00528EC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A1B3880420FF0FA900528EC8 /* Nahmjai 3 */;
+			target = A1B3880420FF0FA900528EC8 /* Nahmjai   */;
 			targetProxy = A1B3881C20FF0FAA00528EC8 /* PBXContainerItemProxy */;
 		};
 		A1B3882820FF0FAA00528EC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A1B3880420FF0FA900528EC8 /* Nahmjai 3 */;
+			target = A1B3880420FF0FA900528EC8 /* Nahmjai   */;
 			targetProxy = A1B3882720FF0FAA00528EC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,15 +609,17 @@
 		};
 		A1B3883020FF0FAA00528EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8788A98CAC7F9B2FEF1DFB22 /* Pods-Nahmjai  .debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Nahmjai 3/Info.plist";
+				DEVELOPMENT_TEAM = 9ZKK42G3T8;
+				INFOPLIST_FILE = "Nahmjai /Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mitlaunchgroton.com.Nahmjai-3";
+				PRODUCT_BUNDLE_IDENTIFIER = mitlaunchgroton.com.Nahmjai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,15 +628,17 @@
 		};
 		A1B3883120FF0FAA00528EC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769C42BA6B1D1ABDBB1E12EF /* Pods-Nahmjai  .release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Nahmjai 3/Info.plist";
+				DEVELOPMENT_TEAM = 9ZKK42G3T8;
+				INFOPLIST_FILE = "Nahmjai /Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mitlaunchgroton.com.Nahmjai-3";
+				PRODUCT_BUNDLE_IDENTIFIER = mitlaunchgroton.com.Nahmjai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,6 +647,7 @@
 		};
 		A1B3883320FF0FAA00528EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3964258ED9693A3004BA9F24 /* Pods-Nahmjai  Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,12 +662,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nahmjai 3.app/Nahmjai 3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nahmjai  .app/Nahmjai  ";
 			};
 			name = Debug;
 		};
 		A1B3883420FF0FAA00528EC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0EB0DE980482BE9D5853C5 /* Pods-Nahmjai  Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,12 +683,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nahmjai 3.app/Nahmjai 3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nahmjai  .app/Nahmjai  ";
 			};
 			name = Release;
 		};
 		A1B3883620FF0FAA00528EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B175DB648A21559ED5072FE /* Pods-Nahmjai  UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +709,7 @@
 		};
 		A1B3883720FF0FAA00528EC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63CF04E9309F199EFA4DEB76 /* Pods-Nahmjai  UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -553,7 +730,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1B3880020FF0FA900528EC8 /* Build configuration list for PBXProject "Nahmjai 3" */ = {
+		A1B3880020FF0FA900528EC8 /* Build configuration list for PBXProject "Nahmjai  " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1B3882D20FF0FAA00528EC8 /* Debug */,
@@ -562,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1B3882F20FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3" */ = {
+		A1B3882F20FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai  " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1B3883020FF0FAA00528EC8 /* Debug */,
@@ -571,7 +748,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1B3883220FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3Tests" */ = {
+		A1B3883220FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai  Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1B3883320FF0FAA00528EC8 /* Debug */,
@@ -580,7 +757,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1B3883520FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai 3UITests" */ = {
+		A1B3883520FF0FAA00528EC8 /* Build configuration list for PBXNativeTarget "Nahmjai  UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1B3883620FF0FAA00528EC8 /* Debug */,
